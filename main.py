@@ -21,7 +21,7 @@ def main():
         while totalTime != FIVE:
             time.sleep(1)
             totalTime += 1
-            print(totalTime, end='\r', flush=True)
+            
 
         # Prints posture check message and says said message
         rand = random.choice(responses)
